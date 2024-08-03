@@ -54,6 +54,5 @@ metadata:
   name: docker-registry-credentials
   namespace: goapp-ns
 type: kubernetes.io/dockerconfigjson
-stringData:
-  docker.username: deepakramanan
-  docker.password: 9994522727
+data:
+  .dockerconfigjson: eyJhdXRocyI6eyJodHRwczovL2luZGV4LmRvY2tlci5pby92MS8iOnsidXNlcm5hbWUiOiJkZWVwYWtyYW1hbmFuIiwicGFzc3dvcmQiOiI5OTk0NTIyNzI3In19fQo=
